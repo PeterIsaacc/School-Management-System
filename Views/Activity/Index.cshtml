@@ -1,0 +1,43 @@
+﻿@model IEnumerable<SchoolManagementSystem.Models.Activity>
+
+<h1>Activities</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Activity ID
+            </th>
+            <th>
+                Activity Name
+            </th>
+            <th>
+                School
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var activity in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => activity.ActivityId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => activity.ActivityName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => activity.School.SchoolName)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@activity.ActivityId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@activity.ActivityId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

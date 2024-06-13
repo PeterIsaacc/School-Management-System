@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Super Admin Dashboard";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>Welcome to the Super Admin Dashboard!</p>
+
+<div class="list-group">
+    <a href="@Url.Action("Index", "User")" class="list-group-item list-group-item-action">Manage Users</a>
+    <a href="@Url.Action("Index", "School")" class="list-group-item list-group-item-action">Manage Schools</a>
+    <a href="@Url.Action("Index", "Activity")" class="list-group-item list-group-item-action">Manage Activities</a>
+</div>

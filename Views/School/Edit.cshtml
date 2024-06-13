@@ -1,0 +1,56 @@
+﻿@model SchoolManagementSystem.Models.School
+
+<h1>Edit School</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="SchoolName" class="control-label"></label>
+                <input asp-for="SchoolName" class="form-control" />
+                <span asp-validation-for="SchoolName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Current Activities</label>
+                <ul>
+                    @if (Model.Activities != null && Model.Activities.Any())
+                    {
+                        @foreach (var activity in Model.Activities)
+                        {
+                            <li>@activity.ActivityName</li>
+                        }
+                    }
+                    else
+                    {
+                        <li>None</li>
+                    }
+                </ul>
+            </div>
+            @* <div class="form-group">
+                <label>Activities</label>
+                @foreach (var activity in ViewBag.Activities)
+                {
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="selectedActivities" value="@activity.Value" @(Model.Activities != null && Model.Activities.Any(a => a.ActivityId == int.Parse(activity.Value)) ? "checked" : "") />
+                        <label class="form-check-label">
+                            @activity.Text
+                        </label>
+                    </div>
+                }
+            </div> *@
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form> 
+        <div class="form-group">
+            <a asp-controller="Activity" asp-action="Create" class="btn btn-primary">Create New Activity</a>
+        </div>        
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

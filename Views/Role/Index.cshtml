@@ -1,0 +1,41 @@
+﻿@model IEnumerable<SchoolManagementSystem.Models.Role>
+
+<h1>Roles</h1>
+
+@if (!Model.Any())
+{
+    <p>No roles found. Click the button below to create a new role.</p>
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+else
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Role Name
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var role in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => role.Name)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@role.Id">Edit</a> |
+                        <a asp-action="Delete" asp-route-id="@role.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

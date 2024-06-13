@@ -1,0 +1,92 @@
+﻿@model SchoolManagementSystem.ViewModels.EditUserViewModel
+
+@{
+    ViewData["Title"] = $"Manage User Role: {@Model.RoleName}";
+}
+
+<h2>@ViewData["Title"] </h2>
+<h4>User: @Model.UserId</h4>
+<form asp-controller="User" asp-action="Edit" method="post">
+    <input type="hidden" asp-for="UserId" />
+    <input type="hidden" asp-for="UserRoleId" />
+
+    <div class="form-group">
+        <label asp-for="RoleName" class="control-label"></label>
+        <select asp-for="RoleName" class="form-control" asp-items="ViewBag.RoleId" id="roleSelect">
+            <option value="">Select a role</option>
+        </select>
+        <span asp-validation-for="RoleName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group" id="schoolSelectDiv">
+        <label asp-for="SchoolName"></label>
+        <select asp-for="SchoolName" asp-items="ViewBag.SchoolName" class="form-control" id="schoolSelect"></select>
+        <span asp-validation-for="SchoolName" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group" id="activitySelectDiv">
+        <label asp-for="ActivityName"></label>
+        <select asp-for="ActivityName" asp-items="ViewBag.ActivityName" class="form-control" id="activitySelect"></select>
+        <span asp-validation-for="ActivityName" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Register</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            function loadActivitiesForSelectedSchools() {
+                var selectedSchools = $('#schoolSelect').val();
+                var selectedRole = $('#roleSelect').val();
+                if (selectedRole == 'Activity Admin') {
+                    $.ajax({
+                        url: '/User/GetActivities',
+                        type: 'GET',
+                        traditional: true,
+                        data: { schoolNames: selectedSchools },
+                        success: function (activities) {
+                            $('#activitySelect').empty();
+                            $.each(activities, function (i, activity) {
+                                $('#activitySelect').append($('<option></option>').val(activity).html(activity));
+                            });
+                            $('#activitySelectDiv').show();
+                        }
+                    });
+                } else {
+                    $('#activitySelectDiv').hide();
+                }
+            }
+
+            $('#roleSelect').change(function () {
+                var selectedRoles = $(this).val();
+                if (selectedRoles.includes('School Admin')) {
+                    $('#schoolSelectDiv').show();
+                } else {
+                    $('#schoolSelectDiv').hide();
+                    if (!$('#roleSelect').val().includes('School Admin') && $('#schoolSelect').val() == '') {
+                        $('#schoolSelect').val(null);
+                    }
+                }
+                if (selectedRoles.includes('Activity Admin')) {
+                    $('#schoolSelectDiv').show();
+                    $('#activitySelectDiv').show();
+                    loadActivitiesForSelectedSchools();
+                } else {
+                    $('#activitySelectDiv').hide();
+                    if (!$('#roleSelect').val().includes('Activity Admin') && $('#activitySelect').val() == '') {
+                        $('#activitySelect').val(null);
+                    }
+                }
+            }).change();
+
+            $('#schoolSelect').change(function () {
+                loadActivitiesForSelectedSchools();
+            }).change(); 
+        });
+    </script>
+}

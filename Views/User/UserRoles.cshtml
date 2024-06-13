@@ -1,0 +1,46 @@
+﻿@model IEnumerable<SchoolManagementSystem.ViewModels.UserRoleViewModel>
+
+@{
+    ViewData["Title"] = $"User:{@Model.FirstOrDefault()?.UserId}";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
+
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>User</th>
+                <th>Role</th>
+                <th>School</th>
+                <th>Activity</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var userRole in Model)
+            {
+                if (userRole.UserRoleId != null && userRole.UserRoleId != 0)
+                {
+                    <tr>
+                        <td>@userRole.UserName</td>
+                        <td>@userRole.RoleName</td>
+                        <td>@userRole.SchoolName</td>
+                        <td>@userRole.ActivityName</td>
+                        <td>
+                            <div class="d-flex">
+                                <a asp-action="Edit" asp-route-userId="@userRole.UserId" asp-route-userRoleId="@userRole.UserRoleId" class="btn btn-primary mr-2">Edit</a>  
+                                <form method="post" action="@Url.Action("DeleteUserRole", "User")" onsubmit="return confirm('Are you sure you want to delete this user role?');">
+                                    <input type="hidden" name="userRoleId" value="@userRole.UserRoleId" />
+                                    <input type="submit" value="Delete" class="btn btn-danger" />
+                                </form>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+    <a asp-action="Create" asp-route-userId="@Model.FirstOrDefault()?.UserId" class="btn btn-success">Create New</a>
+</div>

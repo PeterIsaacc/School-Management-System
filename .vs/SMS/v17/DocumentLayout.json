@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\views\\user\\userroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:views\\user\\userroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\views\\activity\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:views\\activity\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRoles.cshtml",
+              "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Views\\User\\UserRoles.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\UserRoles.cshtml",
+              "ToolTip": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Views\\User\\UserRoles.cshtml",
+              "RelativeToolTip": "Views\\User\\UserRoles.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T07:38:21.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Models\\UserRole.cs",
+              "ToolTip": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Models\\UserRole.cs",
+              "RelativeToolTip": "Models\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T07:38:17.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SchoolController.cs",
+              "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Controllers\\SchoolController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SchoolController.cs",
+              "ToolTip": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Controllers\\SchoolController.cs",
+              "RelativeToolTip": "Controllers\\SchoolController.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAqwJ4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:20:43.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActivityController.cs",
+              "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Controllers\\ActivityController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActivityController.cs",
+              "ToolTip": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Controllers\\ActivityController.cs",
+              "RelativeToolTip": "Controllers\\ActivityController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAawEwAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:13:55.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Views\\Activity\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Activity\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Views\\Activity\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Activity\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T10:13:08.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T10:08:18.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

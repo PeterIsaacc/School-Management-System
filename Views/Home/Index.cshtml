@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to School Management System</h1>
+    <p>Manage your school efficiently with our system.</p>
+    <p>
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <a class="btn btn-primary btn-lg" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+        }
+    </p>
+</div>
