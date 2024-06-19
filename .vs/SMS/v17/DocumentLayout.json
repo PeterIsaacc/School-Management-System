@@ -3,27 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\views\\user\\userroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:models\\edituserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\views\\user\\userroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:views\\user\\userroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:controllers\\schoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|c:\\users\\peter.isaac\\documents\\workingg\\sms\\sms\\views\\activity\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\views\\activity\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{85CA49DA-F865-41C5-A6D5-AF3C98D7CCCC}|SMS.csproj|solutionrelative:views\\activity\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -34,11 +50,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-18T20:47:48.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "EditUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Models\\EditUserViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\EditUserViewModel.cs",
+              "ToolTip": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Models\\EditUserViewModel.cs",
+              "RelativeToolTip": "Models\\EditUserViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:59:20.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA2wBAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:58:29.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Data\\SeedData.cs",
+              "RelativeToolTip": "Data\\SeedData.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowFMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:57:59.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "UserRoles.cshtml",
               "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Views\\User\\UserRoles.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\UserRoles.cshtml",
@@ -46,12 +112,11 @@
               "RelativeToolTip": "Views\\User\\UserRoles.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T07:38:21.938Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T07:38:21.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "Models\\UserRole.cs",
@@ -59,12 +124,11 @@
               "RelativeToolTip": "Models\\UserRole.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T07:38:17.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T07:38:17.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SchoolController.cs",
               "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Controllers\\SchoolController.cs",
               "RelativeDocumentMoniker": "Controllers\\SchoolController.cs",
@@ -72,12 +136,11 @@
               "RelativeToolTip": "Controllers\\SchoolController.cs",
               "ViewState": "AQIAAIoAAAAAAAAAAAAqwJ4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T10:20:43.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T10:20:43.768Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ActivityController.cs",
               "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Controllers\\ActivityController.cs",
               "RelativeDocumentMoniker": "Controllers\\ActivityController.cs",
@@ -85,12 +148,11 @@
               "RelativeToolTip": "Controllers\\ActivityController.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAawEwAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T10:13:55.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T10:13:55.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Views\\Activity\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Activity\\Edit.cshtml",
@@ -98,8 +160,7 @@
               "RelativeToolTip": "Views\\Activity\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T10:13:08.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T10:13:08.678Z"
             },
             {
               "$type": "Document",
@@ -109,7 +170,7 @@
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\peter.isaac\\Documents\\workingg\\SMS\\SMS\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAEABAAAAAAAAAIAwwFMBAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T10:08:18.852Z",
               "EditorCaption": ""

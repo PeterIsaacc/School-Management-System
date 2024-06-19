@@ -39,6 +39,7 @@ namespace SchoolManagementSystem.Controllers
                 .Include(ur => ur.School)
                 .Include(ur => ur.Activity)
                 .FirstOrDefaultAsync(ur => ur.UserId == userId && ur.UserRoleId == userRoleId);
+            var userName = _userManager.FindByIdAsync(userId).Result.Email.Split('@')[0];
 
             if (userRole == null)
             {
@@ -48,6 +49,7 @@ namespace SchoolManagementSystem.Controllers
             var model = new EditUserViewModel
             {
                 UserId = userRole.UserId,
+                UserName = userName,
                 RoleName = userRole.Role.Name,
                 SchoolName = userRole.School?.SchoolName,
                 ActivityName = userRole.Activity?.ActivityName
@@ -129,7 +131,7 @@ namespace SchoolManagementSystem.Controllers
                         {
                             if (ex.InnerException is SqlException sqlEx && (sqlEx.Number == 2601 || sqlEx.Number == 2627))
                             {
-                                ModelState.AddModelError("", "A user cannot have the same role in the same school or activity more than once.");
+                                ModelState.AddModelError("", "User Role already exists.");
                                 return View(model);
                             }
                             throw;
@@ -206,7 +208,8 @@ namespace SchoolManagementSystem.Controllers
                                           .Include(ur => ur.School)
                                           .Include(ur => ur.Activity)
                                           .ToListAsync();
-
+            var user = await _userManager.FindByIdAsync(Id);
+            var userName = _userManager.FindByIdAsync(user.Id).Result.Email.Split('@')[0];
             List<UserRoleViewModel> model;
 
             if (!userRoles.Any())
@@ -215,7 +218,8 @@ namespace SchoolManagementSystem.Controllers
                 {
                     new UserRoleViewModel
                     {
-                        UserId = Id
+                        UserId = Id,
+                        UserName = userName
                     }
                 };
             }
@@ -225,7 +229,7 @@ namespace SchoolManagementSystem.Controllers
                 {
                     UserRoleId = ur.UserRoleId,
                     UserId = ur.UserId,
-                    UserName = _userManager.FindByIdAsync(ur.UserId).Result.Email.Split('@')[0],
+                    UserName = userName,
                     RoleName = ur.Role.Name,
                     SchoolName = ur.School?.SchoolName,
                     ActivityName = ur.Activity?.ActivityName
@@ -251,11 +255,16 @@ namespace SchoolManagementSystem.Controllers
             return RedirectToAction("UserRoles", "User", new { Id = userRole.UserId });
         }
         [HttpGet]
-        public IActionResult Create(string userId)
+        public async Task<IActionResult> Create(string userId)
         {
+            var user = await _userManager.FindByIdAsync(userId);
+            var userName = _userManager.FindByIdAsync(user.Id).Result.Email.Split('@')[0];
+
             var model = new EditUserViewModel
             {
-                UserId = userId
+                UserId = userId,
+                UserName = userName
+
             };
         
             var schools = _context.Schools.ToList();
@@ -325,7 +334,7 @@ namespace SchoolManagementSystem.Controllers
                 {
                     if (ex.InnerException is SqlException sqlEx && (sqlEx.Number == 2601 || sqlEx.Number == 2627))
                     {
-                        ModelState.AddModelError("", "A user cannot have the same role in the same school or activity more than once.");
+                        ModelState.AddModelError("", "User Role already exists.");
                         return View(model);
                     }
                     throw;
